@@ -1,0 +1,96 @@
+/*color and fonts*/
+
+body {
+	background-color: rgb(255,235,153);
+	color: rgb(50,50,50);
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+h1,h2 {
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight: 700;
+}
+
+h1 {
+	color: purple;
+	font-size: 50px;
+}
+
+h2 {
+	color: purple;
+	font-size: 30px;
+}
+
+a {
+	text-decoration: none;
+	color: purple;
+}
+a:hover { 
+	color: black;
+ }
+
+
+/*custom design with classes*/
+.container{
+	width: 800px;
+	margin: 40px auto;
+}
+.card-aliceblue{
+	background: aliceblue ;
+    padding: 80px;
+    width: 800px auto;
+    margin: 80px auto;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    text-align: center;
+}
+.img-circle {
+	 border-radius: 50%;
+	 border: 5px solid lightgrey;
+}
+.btn-purple{
+	background-color: purple;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.btn-purple:hover {
+	background-color: black;
+	color: white:
+}
+.list-inline{
+	list-style: none;
+	padding: 0px;
+}
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+.list-inline i{
+ 	font-size: 50px;
+ 	color: rgb(239,168,228); 
+}
+.list-inline i:hover{
+ 	font-size: 50px;
+ 	color: purple; 
+ }
+ #introduction p {
+ 	margin-bottom: 40px;
+ }
+
+
+/* Responsive design */
+ @media (max-width: 960px) {
+  /* For a screen < 960px */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px */
+  .container {
+    width: 500px;
+  }
+}
